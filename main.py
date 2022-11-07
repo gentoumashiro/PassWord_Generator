@@ -45,7 +45,7 @@ def generate_data() -> str:
     password = generate_password(letters)
     name = choice(names_list)
     mail = name[:15].replace(' ', '_') + 'as12388@mail.ru'
-    result = f"{name}\n{mail}z@mail.ru\n{password}"
+    result = f"{name}\n{mail}\n{password}"
     return result
 
 
