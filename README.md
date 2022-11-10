@@ -6,9 +6,11 @@ You can run ready .exe file in dist/main.exe
 Or compile it by yourself:
 
   1) git clone https://github.com/gentoumashiro/PassWord_Generator.git
-  2) pip install -r requirements.txt
-  3) pyinstaller --noconfirm --onefile --console "FULL path to \main.exe"
-  4) run created main.exe in dist\main.exe
+  2) python -m venv venv
+  3) python venv\Scripts\activate
+  4) pip install -r requirements.txt
+  5) pyinstaller --noconfirm --onefile --console "FULL path to \main.exe"
+  6) run created main.exe in dist\main.exe
 
 This script after running will create and copy info like:
 
