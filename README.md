@@ -7,7 +7,7 @@ Or compile it by yourself:
 
   1) git clone https://github.com/gentoumashiro/PassWord_Generator.git
   2) python -m venv venv
-  3) python venv\Scripts\activate
+  3) venv\Scripts\activate
   4) pip install -r requirements.txt
   5) pyinstaller --noconfirm --onefile --console "FULL path to \main.exe"
   6) run created main.exe in dist\main.exe
