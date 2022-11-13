@@ -44,13 +44,12 @@ def generate_data() -> str:
     letters = symbols_alphabet()
     password = generate_password(letters)
     name = choice(names_list)
-    mail = name[:15].replace(' ', '_') + 'as12388@mail.ru'
+    mail = name[:15].replace(' ', '_') + 'as12388@gmail.com'
     result = f"{name}\n{mail}\n{password}"
     return result
 
 
 def save_document(data, i) -> None:
-    # os.chdir('C:\\Users\\123\\Desktop\\Genshin_accounts')  # u can choose your path to saving folder
     with open(f'{i} {time()}.txt', 'w', encoding='UTF-8') as file:
         file.write(data)
 
